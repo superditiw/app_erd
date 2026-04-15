@@ -1,0 +1,97 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary: #313E17;
+  --primary-hover: #445422;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: var(--primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-content {
+  padding-top: 70px; /* JARAK DARI NAVBAR */
+  height: 100vh;
+  overflow-y: auto;  /* scroll hanya di content */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--primary);
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  font-weight: 500;
+  color: #d6e4b1;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+
+  background-color: #1f2710;
+  color: white; 
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
