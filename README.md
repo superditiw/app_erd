@@ -1,4 +1,4 @@
-# 📦 APP_ERD - Inventory Management System
+# 📦 APP_ERD 
 
 ## 📌 Overview
 
